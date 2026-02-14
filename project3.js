@@ -4,9 +4,10 @@ function setup() {
 }
 
 function draw() {
-  if (mouseIsPressed) {
-    noStroke();
+    noStroke(0);
     fill(255);
     circle(mouseX, mouseY, 20);
-  }
+}
+function mousePressed(){
+background(100)
 }
